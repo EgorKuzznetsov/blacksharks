@@ -24,6 +24,42 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     border-radius: 8px;
     padding: 10px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+
+.email {
+    height: 22px;
+    padding: 16px 14px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    caret-color: 1px solid #1877f2;
+}
+
+.pass {
+    height: 22px;
+    padding: 16px 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    caret-color: 1px solid #1877f2;
+}
+
+.email:focus {
+    height: 22px;
+    padding: 16px 14px;
+    outline: 1px solid #1877f2;
+    caret-color: 1px solid #6b9be3;
+}
+
+.pass:focus {
+    height: 22px;
+    padding: 16px 14px;
+    outline: 1px solid #1877f2;
+    caret-color: 1px solid #1877f2;
 }
 
 h2 {
@@ -32,6 +68,61 @@ h2 {
     font-size: 28px;
 }
 
+.btn {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.ashref {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.ashref:hover {
+    text-decoration: underline;
+}
+
+.ashref:visited {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+}
+
 .facebook_logo {
     margin: -28px;
+}
+
+.line {
+    border-bottom: 0.8px solid #dddfe2;
+    height: 0.8px;
+    width: 100%;    
+}
+
+.new_acc {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #42b72a;
+    border-radius: 6px; 
+    width: 231px;
+    margin: auto;
+}
+
+.textblock {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
 }
